@@ -3,9 +3,9 @@
 # This script should only be set on a cron to run daily.
 # Note database creds will need replaced with your own.
 
-DBUSER = 'root'
-DBPASS = 'yer_secure_password'
-SCRIPTSBASEDIR = 'path/to/scripts'
+DBUSER='root'
+DBPASS='yer_secure_password'
+SCRIPTSBASEDIR='path/to/scripts'
 
 # log start
 echo "Started full backup" 1>&2;
