@@ -2,9 +2,9 @@
 # Script to do incremental backup of database to be called on cron hourly
 # Note database creds will need replaced with your own.
 
-DBUSER = 'root'
-DBPASS = 'yer_secure_password'
-SCRIPTSBASEDIR = 'path/to/scripts'
+DBUSER='root'
+DBPASS='yer_secure_password'
+SCRIPTSBASEDIR='path/to/scripts'
 
 
 echo "Starting hourly backup" 1>&2;
